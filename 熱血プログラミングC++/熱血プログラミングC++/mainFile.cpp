@@ -9,7 +9,11 @@ int main(void) {
 	//inlineFunc();
 	//NameAlias();
 	//BankProjectSelector();
-	RefPtr();
+	//RefSwapMain();
+	//RefPtr();
+	//Ch2_4_Q1();
+	//Ch2_4_Q3();
 
+	RefReturnTwoMain();
 	system("pause");
 }

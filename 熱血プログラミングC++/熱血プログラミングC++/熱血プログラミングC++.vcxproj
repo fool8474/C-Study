@@ -129,6 +129,7 @@
     <ClCompile Include="04_inlineFunc.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="04_ReferenceFuncs.cpp" />
     <ClCompile Include="bankSystemMain.cpp" />
     <ClCompile Include="BankSystemVer01.cpp" />
     <ClCompile Include="mainFile.cpp">
@@ -144,6 +145,7 @@
     <ClInclude Include="03.h" />
     <ClInclude Include="03_RefPtr.h" />
     <ClInclude Include="04_inlineFunc.h" />
+    <ClInclude Include="04_ReferenceFuncs.h" />
     <ClInclude Include="05_NameAlias.h" />
     <ClInclude Include="bankSystemMain.h" />
     <ClInclude Include="BankSystemVer01.h" />

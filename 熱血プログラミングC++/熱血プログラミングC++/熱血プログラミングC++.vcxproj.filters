@@ -60,6 +60,9 @@
     <ClCompile Include="03_RefPtr.cpp">
       <Filter>소스 파일\Chapter02</Filter>
     </ClCompile>
+    <ClCompile Include="04_ReferenceFuncs.cpp">
+      <Filter>소스 파일\Chapter02</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01.h">
@@ -87,6 +90,9 @@
       <Filter>헤더 파일\oopProject</Filter>
     </ClInclude>
     <ClInclude Include="03_RefPtr.h">
+      <Filter>헤더 파일\Chapter02</Filter>
+    </ClInclude>
+    <ClInclude Include="04_ReferenceFuncs.h">
       <Filter>헤더 파일\Chapter02</Filter>
     </ClInclude>
   </ItemGroup>
