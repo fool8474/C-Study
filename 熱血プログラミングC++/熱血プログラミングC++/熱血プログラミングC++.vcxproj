@@ -125,9 +125,17 @@
     <ClCompile Include="03.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="04_inlineFunc.cpp" />
-    <ClCompile Include="mainFile.cpp" />
-    <ClCompile Include="05_NameAlias.cpp" />
+    <ClCompile Include="04_inlineFunc.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="bankSystemMain.cpp" />
+    <ClCompile Include="BankSystemVer01.cpp" />
+    <ClCompile Include="mainFile.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="05_NameAlias.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01.h" />
@@ -135,6 +143,8 @@
     <ClInclude Include="03.h" />
     <ClInclude Include="04_inlineFunc.h" />
     <ClInclude Include="05_NameAlias.h" />
+    <ClInclude Include="bankSystemMain.h" />
+    <ClInclude Include="BankSystemVer01.h" />
     <ClInclude Include="mainHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -19,15 +19,18 @@
     <Filter Include="헤더 파일\Chapter01">
       <UniqueIdentifier>{ae7f5262-c34e-4b6d-b990-cb3e2473ea77}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\oopProject">
+      <UniqueIdentifier>{634bf10e-da40-43a7-8957-eb20e76f45d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\oopProject">
+      <UniqueIdentifier>{1152e982-de56-41df-9303-9e674c1c7906}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="01.cpp">
       <Filter>소스 파일\Chapter01</Filter>
     </ClCompile>
     <ClCompile Include="02.cpp">
-      <Filter>소스 파일\Chapter01</Filter>
-    </ClCompile>
-    <ClCompile Include="mainFile.cpp">
       <Filter>소스 파일\Chapter01</Filter>
     </ClCompile>
     <ClCompile Include="03.cpp">
@@ -39,11 +42,17 @@
     <ClCompile Include="05_NameAlias.cpp">
       <Filter>소스 파일\Chapter01</Filter>
     </ClCompile>
+    <ClCompile Include="BankSystemVer01.cpp">
+      <Filter>소스 파일\oopProject</Filter>
+    </ClCompile>
+    <ClCompile Include="bankSystemMain.cpp">
+      <Filter>소스 파일\oopProject</Filter>
+    </ClCompile>
+    <ClCompile Include="mainFile.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mainHeader.h">
-      <Filter>헤더 파일\Chapter01</Filter>
-    </ClInclude>
     <ClInclude Include="01.h">
       <Filter>헤더 파일\Chapter01</Filter>
     </ClInclude>
@@ -58,6 +67,15 @@
     </ClInclude>
     <ClInclude Include="05_NameAlias.h">
       <Filter>헤더 파일\Chapter01</Filter>
+    </ClInclude>
+    <ClInclude Include="BankSystemVer01.h">
+      <Filter>헤더 파일\oopProject</Filter>
+    </ClInclude>
+    <ClInclude Include="mainHeader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="bankSystemMain.h">
+      <Filter>헤더 파일\oopProject</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

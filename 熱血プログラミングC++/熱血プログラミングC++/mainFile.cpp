@@ -7,7 +7,9 @@ int main(void) {
 	//Q2Main();
 	//Q3Main();
 	//inlineFunc();
-	NameAlias();
+	//NameAlias();
+
+	BankProjectSelector();
 
 	system("pause");
 }

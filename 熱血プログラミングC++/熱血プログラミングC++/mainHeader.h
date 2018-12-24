@@ -1,6 +1,9 @@
 #pragma once
 
 #include <iostream>
+#include <cstring>
+#include "bankSystemMain.h"
+#include "BankSystemVer01.h"
 #include "05_NameAlias.h"
 #include "04_inlineFunc.h"
 #include "03.h"
