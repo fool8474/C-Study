@@ -8,8 +8,8 @@ int main(void) {
 	//Q3Main();
 	//inlineFunc();
 	//NameAlias();
-
-	BankProjectSelector();
+	//BankProjectSelector();
+	RefPtr();
 
 	system("pause");
 }
