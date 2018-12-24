@@ -33,6 +33,12 @@
     <ClCompile Include="03.cpp">
       <Filter>소스 파일\Chapter01</Filter>
     </ClCompile>
+    <ClCompile Include="04_inlineFunc.cpp">
+      <Filter>소스 파일\Chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="05_NameAlias.cpp">
+      <Filter>소스 파일\Chapter01</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mainHeader.h">
@@ -45,6 +51,12 @@
       <Filter>헤더 파일\Chapter01</Filter>
     </ClInclude>
     <ClInclude Include="03.h">
+      <Filter>헤더 파일\Chapter01</Filter>
+    </ClInclude>
+    <ClInclude Include="04_inlineFunc.h">
+      <Filter>헤더 파일\Chapter01</Filter>
+    </ClInclude>
+    <ClInclude Include="05_NameAlias.h">
       <Filter>헤더 파일\Chapter01</Filter>
     </ClInclude>
   </ItemGroup>

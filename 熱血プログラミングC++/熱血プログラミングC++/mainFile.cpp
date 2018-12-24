@@ -5,6 +5,9 @@ int main(void) {
 	//Q1_2();
 	//Q1_3();
 	//Q2Main();
-	Q3Main();
+	//Q3Main();
+	//inlineFunc();
+	NameAlias();
+
 	system("pause");
 }

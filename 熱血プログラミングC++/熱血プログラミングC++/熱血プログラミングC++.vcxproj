@@ -119,14 +119,22 @@
     <ClCompile Include="01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="02.cpp" />
-    <ClCompile Include="03.cpp" />
+    <ClCompile Include="02.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="04_inlineFunc.cpp" />
     <ClCompile Include="mainFile.cpp" />
+    <ClCompile Include="05_NameAlias.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01.h" />
     <ClInclude Include="02.h" />
     <ClInclude Include="03.h" />
+    <ClInclude Include="04_inlineFunc.h" />
+    <ClInclude Include="05_NameAlias.h" />
     <ClInclude Include="mainHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
