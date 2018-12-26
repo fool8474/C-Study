@@ -16,3 +16,7 @@
 #include "calculatorMain.h"
 #include "Calculator.h"
 #include "FruitSaleSim.h"
+#include "Point.h"
+#include "Circle.h"
+#include "Ring.h"
+#include "RingMain.h"

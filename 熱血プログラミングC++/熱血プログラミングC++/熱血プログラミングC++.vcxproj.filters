@@ -43,6 +43,18 @@
     <Filter Include="헤더 파일\Fruit">
       <UniqueIdentifier>{a71d9bf3-0619-40f5-86fd-a31e94a33c7a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\Chapter04">
+      <UniqueIdentifier>{08b4de06-64c6-48ff-b752-f1537d104b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Chapter04\PCR">
+      <UniqueIdentifier>{5fc6b253-3a33-4948-953c-fefdf71d126a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter04">
+      <UniqueIdentifier>{03cec481-2e1c-408c-90ef-ca32fd8aec13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter04\PCR">
+      <UniqueIdentifier>{cc8545e5-cd6c-41d9-a581-ae4e677f9ac2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="01.cpp">
@@ -96,6 +108,18 @@
     <ClCompile Include="FruitSaleSim.cpp">
       <Filter>소스 파일\Fruit</Filter>
     </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>소스 파일\Chapter04\PCR</Filter>
+    </ClCompile>
+    <ClCompile Include="Ring.cpp">
+      <Filter>소스 파일\Chapter04\PCR</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>소스 파일\Chapter04\PCR</Filter>
+    </ClCompile>
+    <ClCompile Include="RingMain.cpp">
+      <Filter>소스 파일\Chapter04\PCR</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01.h">
@@ -136,6 +160,18 @@
     </ClInclude>
     <ClInclude Include="FruitSaleSim.h">
       <Filter>헤더 파일\Fruit</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>헤더 파일\Chapter04\PCR</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>헤더 파일\Chapter04\PCR</Filter>
+    </ClInclude>
+    <ClInclude Include="Ring.h">
+      <Filter>헤더 파일\Chapter04\PCR</Filter>
+    </ClInclude>
+    <ClInclude Include="RingMain.h">
+      <Filter>헤더 파일\Chapter04\PCR</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
