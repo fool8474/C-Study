@@ -13,21 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\PCR">
+      <UniqueIdentifier>{25f40695-2152-429e-823c-194bbe9754f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PCR">
+      <UniqueIdentifier>{9277f711-eb79-4a50-8fe7-763ab5bafb0c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="mainFile.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Circle.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\PCR</Filter>
     </ClCompile>
     <ClCompile Include="Point.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\PCR</Filter>
     </ClCompile>
     <ClCompile Include="Ring.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\PCR</Filter>
     </ClCompile>
     <ClCompile Include="RingMain.cpp">
+      <Filter>소스 파일\PCR</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjArr.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -36,15 +45,18 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Circle.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\PCR</Filter>
     </ClInclude>
     <ClInclude Include="Point.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\PCR</Filter>
     </ClInclude>
     <ClInclude Include="Ring.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\PCR</Filter>
     </ClInclude>
     <ClInclude Include="RingMain.h">
+      <Filter>헤더 파일\PCR</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjArr.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

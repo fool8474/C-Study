@@ -6,3 +6,4 @@
 #include "Circle.h"
 #include "Ring.h"
 #include "RingMain.h"
+#include "ObjArr.h"

@@ -106,8 +106,9 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -117,6 +118,7 @@
   <ItemGroup>
     <ClCompile Include="Circle.cpp" />
     <ClCompile Include="mainFile.cpp" />
+    <ClCompile Include="ObjArr.cpp" />
     <ClCompile Include="Point.cpp" />
     <ClCompile Include="Ring.cpp" />
     <ClCompile Include="RingMain.cpp" />
@@ -124,6 +126,7 @@
   <ItemGroup>
     <ClInclude Include="Circle.h" />
     <ClInclude Include="mainHeader.h" />
+    <ClInclude Include="ObjArr.h" />
     <ClInclude Include="Point.h" />
     <ClInclude Include="Ring.h" />
     <ClInclude Include="RingMain.h" />

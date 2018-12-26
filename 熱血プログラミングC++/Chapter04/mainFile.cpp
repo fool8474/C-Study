@@ -1,6 +1,7 @@
 #include "mainHeader.h"
 
 int main(void) {
-	RingMain();
+	//RingMain();
+	ObjArrMain();
 	system("pause");
 }
