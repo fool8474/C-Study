@@ -1,9 +1,9 @@
 #include "mainHeader.h"
 
 using namespace std;
-void Circle::Init(int x, int y, int radius)
+
+Circle::Circle(int x, int y, int radius) : pt(x, y)
 {
-	pt.Init(x, y);
 	this->radius = radius;
 }
 

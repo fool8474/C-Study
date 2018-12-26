@@ -2,11 +2,8 @@
 
 using namespace std;
 
-void Ring::Init(int innerX, int innerY, int innerRad, int outerX, int outerY, int outerRad)
-{
-	circleInner.Init(innerX, innerY, innerRad);
-	circleouter.Init(outerX, outerY, outerRad);
-}
+Ring::Ring(int innerX, int innerY, int innerRad, int outerX, int outerY, int outerRad) : circleInner(innerX, innerY, innerRad), circleouter(outerX, outerY, outerRad)
+{}
 
 Circle Ring::getInnerCircle() const
 {

@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void Point::Init(int x, int y)
+Point::Point(int x, int y)
 {
 	xpos = x;
 	ypos = y;
