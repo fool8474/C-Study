@@ -31,6 +31,12 @@
     <Filter Include="헤더 파일\Chapter02">
       <UniqueIdentifier>{d1580933-57d9-47b6-af52-84b916112729}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter03">
+      <UniqueIdentifier>{838852e7-5c6b-439c-ad20-9a5826f0a39b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Chapter03">
+      <UniqueIdentifier>{4a5ed1b2-c318-4fce-9196-5638d6391ef6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="01.cpp">
@@ -63,6 +69,15 @@
     <ClCompile Include="04_ReferenceFuncs.cpp">
       <Filter>소스 파일\Chapter02</Filter>
     </ClCompile>
+    <ClCompile Include="CarInline.h">
+      <Filter>헤더 파일\Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="CarInline.cpp">
+      <Filter>소스 파일\Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="carMain.cpp">
+      <Filter>소스 파일\Chapter03</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01.h">
@@ -94,6 +109,9 @@
     </ClInclude>
     <ClInclude Include="04_ReferenceFuncs.h">
       <Filter>헤더 파일\Chapter02</Filter>
+    </ClInclude>
+    <ClInclude Include="carMain.h">
+      <Filter>헤더 파일\Chapter03</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

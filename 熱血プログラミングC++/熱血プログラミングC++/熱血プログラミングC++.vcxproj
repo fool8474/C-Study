@@ -132,12 +132,15 @@
     <ClCompile Include="04_ReferenceFuncs.cpp" />
     <ClCompile Include="bankSystemMain.cpp" />
     <ClCompile Include="BankSystemVer01.cpp" />
+    <ClCompile Include="carMain.cpp" />
     <ClCompile Include="mainFile.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="05_NameAlias.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="CarInline.cpp" />
+    <ClCompile Include="CarInline.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01.h" />
@@ -149,6 +152,7 @@
     <ClInclude Include="05_NameAlias.h" />
     <ClInclude Include="bankSystemMain.h" />
     <ClInclude Include="BankSystemVer01.h" />
+    <ClInclude Include="carMain.h" />
     <ClInclude Include="mainHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
