@@ -2,6 +2,7 @@
 #define __CARINLINE_H__
 
 #include "mainHeader.h"
+
 using std::cout;
 using std::endl;
 using std::cin;

@@ -1,4 +1,4 @@
-#include "mainHeader.h";
+#include "mainHeader.h"
 
 void calMain(void) {
 	Calculator cal;

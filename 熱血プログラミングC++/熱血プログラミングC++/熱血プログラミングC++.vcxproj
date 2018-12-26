@@ -135,6 +135,9 @@
     <ClCompile Include="Calculator.cpp" />
     <ClCompile Include="calculatorMain.cpp" />
     <ClCompile Include="carMain.cpp" />
+    <ClCompile Include="FruitBuyer.cpp" />
+    <ClCompile Include="FruitSaleSim1Main.cpp" />
+    <ClCompile Include="FruitSeller.cpp" />
     <ClCompile Include="mainFile.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -157,6 +160,9 @@
     <ClInclude Include="BankSystemVer01.h" />
     <ClInclude Include="calculatorMain.h" />
     <ClInclude Include="carMain.h" />
+    <ClInclude Include="FruitBuyer.h" />
+    <ClInclude Include="FruitSaleSim1Main.h" />
+    <ClInclude Include="FruitSeller.h" />
     <ClInclude Include="mainHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

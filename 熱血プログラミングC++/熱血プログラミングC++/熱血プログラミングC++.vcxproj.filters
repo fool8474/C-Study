@@ -87,6 +87,15 @@
     <ClCompile Include="Calculator.cpp">
       <Filter>소스 파일\Chapter03</Filter>
     </ClCompile>
+    <ClCompile Include="FruitSeller.cpp">
+      <Filter>소스 파일\Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="FruitBuyer.cpp">
+      <Filter>소스 파일\Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="FruitSaleSim1Main.cpp">
+      <Filter>소스 파일\Chapter03</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01.h">
@@ -122,8 +131,17 @@
     <ClInclude Include="carMain.h">
       <Filter>헤더 파일\Chapter03</Filter>
     </ClInclude>
+    <ClInclude Include="FruitSeller.h">
+      <Filter>헤더 파일\Chapter03</Filter>
+    </ClInclude>
+    <ClInclude Include="FruitBuyer.h">
+      <Filter>헤더 파일\Chapter03</Filter>
+    </ClInclude>
     <ClInclude Include="calculatorMain.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\Chapter03</Filter>
+    </ClInclude>
+    <ClInclude Include="FruitSaleSim1Main.h">
+      <Filter>헤더 파일\Chapter03</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
