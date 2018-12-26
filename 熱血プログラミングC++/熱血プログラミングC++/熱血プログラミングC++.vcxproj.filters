@@ -13,50 +13,98 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\Chapter01">
-      <UniqueIdentifier>{84dd5902-6ab1-4d80-a7b2-ec42c3acfb2a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="헤더 파일\Chapter01">
-      <UniqueIdentifier>{ae7f5262-c34e-4b6d-b990-cb3e2473ea77}</UniqueIdentifier>
+    <Filter Include="헤더 파일\oopProject">
+      <UniqueIdentifier>{7f95e0e9-0c57-4826-afb3-73225420720e}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\oopProject">
-      <UniqueIdentifier>{634bf10e-da40-43a7-8957-eb20e76f45d5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="헤더 파일\oopProject">
-      <UniqueIdentifier>{1152e982-de56-41df-9303-9e674c1c7906}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Chapter02">
-      <UniqueIdentifier>{fd2434a9-4f83-45a4-98c7-34bb48b10b10}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="헤더 파일\Chapter02">
-      <UniqueIdentifier>{d1580933-57d9-47b6-af52-84b916112729}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Chapter03">
-      <UniqueIdentifier>{838852e7-5c6b-439c-ad20-9a5826f0a39b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="헤더 파일\Chapter03">
-      <UniqueIdentifier>{4a5ed1b2-c318-4fce-9196-5638d6391ef6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Fruit">
-      <UniqueIdentifier>{bd05a43a-2f5d-48c9-ac11-ea50d1cf963b}</UniqueIdentifier>
+      <UniqueIdentifier>{27c8d913-4b97-4434-8b5c-946d15f746e5}</UniqueIdentifier>
     </Filter>
     <Filter Include="헤더 파일\Fruit">
-      <UniqueIdentifier>{a71d9bf3-0619-40f5-86fd-a31e94a33c7a}</UniqueIdentifier>
+      <UniqueIdentifier>{ac189775-188f-49e0-89c0-88f697cb59a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Fruit">
+      <UniqueIdentifier>{4124cbd4-093d-45c0-9051-7582692bc4cd}</UniqueIdentifier>
     </Filter>
     <Filter Include="헤더 파일\Chapter04">
-      <UniqueIdentifier>{08b4de06-64c6-48ff-b752-f1537d104b1b}</UniqueIdentifier>
+      <UniqueIdentifier>{f78f30a8-aedc-49ae-ba42-1d15f61d2336}</UniqueIdentifier>
     </Filter>
     <Filter Include="헤더 파일\Chapter04\PCR">
-      <UniqueIdentifier>{5fc6b253-3a33-4948-953c-fefdf71d126a}</UniqueIdentifier>
+      <UniqueIdentifier>{9ed6e74e-2dcd-4c60-90fa-50cb45fb1bbf}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\Chapter04">
-      <UniqueIdentifier>{03cec481-2e1c-408c-90ef-ca32fd8aec13}</UniqueIdentifier>
+      <UniqueIdentifier>{9f8fa77c-4b83-415c-a166-ba0282f9ef5d}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\Chapter04\PCR">
-      <UniqueIdentifier>{cc8545e5-cd6c-41d9-a581-ae4e677f9ac2}</UniqueIdentifier>
+      <UniqueIdentifier>{bd8fc67b-68e6-4a71-a33c-6d2e084d6320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Chapter03">
+      <UniqueIdentifier>{c530c225-f25a-4734-a473-c97db8a4f14b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter03">
+      <UniqueIdentifier>{602a2524-b701-4f5d-b43b-6df169458bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter02">
+      <UniqueIdentifier>{0cb7f2c7-ba97-49bd-86e9-eb2716231c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Chapter02">
+      <UniqueIdentifier>{b2872493-3ddd-4f0e-bcf8-d2000c8f4d1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter01">
+      <UniqueIdentifier>{c4c7bc83-2175-4cd4-a0d0-fc2f0e029dc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Chapter01">
+      <UniqueIdentifier>{490156c0-b368-4bf4-8ced-99e7842a8968}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="mainFile.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="bankSystemMain.cpp">
+      <Filter>소스 파일\oopProject</Filter>
+    </ClCompile>
+    <ClCompile Include="BankSystemVer01.cpp">
+      <Filter>소스 파일\oopProject</Filter>
+    </ClCompile>
+    <ClCompile Include="FruitSaleSim.cpp">
+      <Filter>소스 파일\Fruit</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>소스 파일\Chapter04\PCR</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>소스 파일\Chapter04\PCR</Filter>
+    </ClCompile>
+    <ClCompile Include="Ring.cpp">
+      <Filter>소스 파일\Chapter04\PCR</Filter>
+    </ClCompile>
+    <ClCompile Include="RingMain.cpp">
+      <Filter>소스 파일\Chapter04\PCR</Filter>
+    </ClCompile>
+    <ClCompile Include="CarInline.h">
+      <Filter>헤더 파일\Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculator.h">
+      <Filter>헤더 파일\Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculator.cpp">
+      <Filter>소스 파일\Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="calculatorMain.cpp">
+      <Filter>소스 파일\Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="carMain.cpp">
+      <Filter>소스 파일\Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="CarInline.cpp">
+      <Filter>소스 파일\Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="03_RefPtr.cpp">
+      <Filter>소스 파일\Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="04_ReferenceFuncs.cpp">
+      <Filter>소스 파일\Chapter02</Filter>
+    </ClCompile>
     <ClCompile Include="01.cpp">
       <Filter>소스 파일\Chapter01</Filter>
     </ClCompile>
@@ -72,91 +120,16 @@
     <ClCompile Include="05_NameAlias.cpp">
       <Filter>소스 파일\Chapter01</Filter>
     </ClCompile>
-    <ClCompile Include="BankSystemVer01.cpp">
-      <Filter>소스 파일\oopProject</Filter>
-    </ClCompile>
-    <ClCompile Include="bankSystemMain.cpp">
-      <Filter>소스 파일\oopProject</Filter>
-    </ClCompile>
-    <ClCompile Include="mainFile.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="03_RefPtr.cpp">
-      <Filter>소스 파일\Chapter02</Filter>
-    </ClCompile>
-    <ClCompile Include="04_ReferenceFuncs.cpp">
-      <Filter>소스 파일\Chapter02</Filter>
-    </ClCompile>
-    <ClCompile Include="CarInline.h">
-      <Filter>헤더 파일\Chapter03</Filter>
-    </ClCompile>
-    <ClCompile Include="CarInline.cpp">
-      <Filter>소스 파일\Chapter03</Filter>
-    </ClCompile>
-    <ClCompile Include="carMain.cpp">
-      <Filter>소스 파일\Chapter03</Filter>
-    </ClCompile>
-    <ClCompile Include="calculatorMain.cpp">
-      <Filter>소스 파일\Chapter03</Filter>
-    </ClCompile>
-    <ClCompile Include="Calculator.h">
-      <Filter>헤더 파일\Chapter03</Filter>
-    </ClCompile>
-    <ClCompile Include="Calculator.cpp">
-      <Filter>소스 파일\Chapter03</Filter>
-    </ClCompile>
-    <ClCompile Include="FruitSaleSim.cpp">
-      <Filter>소스 파일\Fruit</Filter>
-    </ClCompile>
-    <ClCompile Include="Point.cpp">
-      <Filter>소스 파일\Chapter04\PCR</Filter>
-    </ClCompile>
-    <ClCompile Include="Ring.cpp">
-      <Filter>소스 파일\Chapter04\PCR</Filter>
-    </ClCompile>
-    <ClCompile Include="Circle.cpp">
-      <Filter>소스 파일\Chapter04\PCR</Filter>
-    </ClCompile>
-    <ClCompile Include="RingMain.cpp">
-      <Filter>소스 파일\Chapter04\PCR</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="01.h">
-      <Filter>헤더 파일\Chapter01</Filter>
-    </ClInclude>
-    <ClInclude Include="02.h">
-      <Filter>헤더 파일\Chapter01</Filter>
-    </ClInclude>
-    <ClInclude Include="03.h">
-      <Filter>헤더 파일\Chapter01</Filter>
-    </ClInclude>
-    <ClInclude Include="04_inlineFunc.h">
-      <Filter>헤더 파일\Chapter01</Filter>
-    </ClInclude>
-    <ClInclude Include="05_NameAlias.h">
-      <Filter>헤더 파일\Chapter01</Filter>
-    </ClInclude>
-    <ClInclude Include="BankSystemVer01.h">
-      <Filter>헤더 파일\oopProject</Filter>
-    </ClInclude>
     <ClInclude Include="mainHeader.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="bankSystemMain.h">
       <Filter>헤더 파일\oopProject</Filter>
     </ClInclude>
-    <ClInclude Include="03_RefPtr.h">
-      <Filter>헤더 파일\Chapter02</Filter>
-    </ClInclude>
-    <ClInclude Include="04_ReferenceFuncs.h">
-      <Filter>헤더 파일\Chapter02</Filter>
-    </ClInclude>
-    <ClInclude Include="carMain.h">
-      <Filter>헤더 파일\Chapter03</Filter>
-    </ClInclude>
-    <ClInclude Include="calculatorMain.h">
-      <Filter>헤더 파일\Chapter03</Filter>
+    <ClInclude Include="BankSystemVer01.h">
+      <Filter>헤더 파일\oopProject</Filter>
     </ClInclude>
     <ClInclude Include="FruitSaleSim.h">
       <Filter>헤더 파일\Fruit</Filter>
@@ -172,6 +145,33 @@
     </ClInclude>
     <ClInclude Include="RingMain.h">
       <Filter>헤더 파일\Chapter04\PCR</Filter>
+    </ClInclude>
+    <ClInclude Include="calculatorMain.h">
+      <Filter>헤더 파일\Chapter03</Filter>
+    </ClInclude>
+    <ClInclude Include="carMain.h">
+      <Filter>헤더 파일\Chapter03</Filter>
+    </ClInclude>
+    <ClInclude Include="03_RefPtr.h">
+      <Filter>헤더 파일\Chapter02</Filter>
+    </ClInclude>
+    <ClInclude Include="04_ReferenceFuncs.h">
+      <Filter>헤더 파일\Chapter02</Filter>
+    </ClInclude>
+    <ClInclude Include="01.h">
+      <Filter>헤더 파일\Chapter01</Filter>
+    </ClInclude>
+    <ClInclude Include="02.h">
+      <Filter>헤더 파일\Chapter01</Filter>
+    </ClInclude>
+    <ClInclude Include="03.h">
+      <Filter>헤더 파일\Chapter01</Filter>
+    </ClInclude>
+    <ClInclude Include="04_inlineFunc.h">
+      <Filter>헤더 파일\Chapter01</Filter>
+    </ClInclude>
+    <ClInclude Include="05_NameAlias.h">
+      <Filter>헤더 파일\Chapter01</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
