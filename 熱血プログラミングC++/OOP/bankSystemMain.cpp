@@ -1,6 +1,7 @@
 #include "mainHeader.h"
-#include "bankSystemMain.h"
+#include "BankSystemVer02.h"
 
 void BankProjectSelector(){
-	BankVer1();
+	//BankVer1();
+	BankVer2();
 }

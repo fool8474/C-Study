@@ -24,6 +24,9 @@
     <ClCompile Include="BankSystemVer01.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BankSystemVer02.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mainHeader.h">
@@ -33,6 +36,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="BankSystemVer01.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BankSystemVer02.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

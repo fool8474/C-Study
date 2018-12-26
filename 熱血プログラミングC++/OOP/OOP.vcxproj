@@ -116,12 +116,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="bankSystemMain.cpp" />
-    <ClCompile Include="BankSystemVer01.cpp" />
+    <ClCompile Include="BankSystemVer01.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="BankSystemVer02.cpp" />
     <ClCompile Include="mainFile.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bankSystemMain.h" />
-    <ClInclude Include="BankSystemVer01.h" />
+    <ClInclude Include="BankSystemVer01.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="BankSystemVer02.h" />
     <ClInclude Include="mainHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
