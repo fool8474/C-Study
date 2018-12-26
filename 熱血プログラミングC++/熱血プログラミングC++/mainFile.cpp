@@ -16,6 +16,6 @@ int main(void) {
 	//RefReturnTwoMain();
 	//carMachanism();
 	//calMain();
-
+	fruitMain();
 	system("pause");
 }

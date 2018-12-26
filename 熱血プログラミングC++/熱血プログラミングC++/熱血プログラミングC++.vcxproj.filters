@@ -37,6 +37,12 @@
     <Filter Include="헤더 파일\Chapter03">
       <UniqueIdentifier>{4a5ed1b2-c318-4fce-9196-5638d6391ef6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Fruit">
+      <UniqueIdentifier>{bd05a43a-2f5d-48c9-ac11-ea50d1cf963b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Fruit">
+      <UniqueIdentifier>{a71d9bf3-0619-40f5-86fd-a31e94a33c7a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="01.cpp">
@@ -87,14 +93,8 @@
     <ClCompile Include="Calculator.cpp">
       <Filter>소스 파일\Chapter03</Filter>
     </ClCompile>
-    <ClCompile Include="FruitSeller.cpp">
-      <Filter>소스 파일\Chapter03</Filter>
-    </ClCompile>
-    <ClCompile Include="FruitBuyer.cpp">
-      <Filter>소스 파일\Chapter03</Filter>
-    </ClCompile>
-    <ClCompile Include="FruitSaleSim1Main.cpp">
-      <Filter>소스 파일\Chapter03</Filter>
+    <ClCompile Include="FruitSaleSim.cpp">
+      <Filter>소스 파일\Fruit</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -131,17 +131,11 @@
     <ClInclude Include="carMain.h">
       <Filter>헤더 파일\Chapter03</Filter>
     </ClInclude>
-    <ClInclude Include="FruitSeller.h">
-      <Filter>헤더 파일\Chapter03</Filter>
-    </ClInclude>
-    <ClInclude Include="FruitBuyer.h">
-      <Filter>헤더 파일\Chapter03</Filter>
-    </ClInclude>
     <ClInclude Include="calculatorMain.h">
       <Filter>헤더 파일\Chapter03</Filter>
     </ClInclude>
-    <ClInclude Include="FruitSaleSim1Main.h">
-      <Filter>헤더 파일\Chapter03</Filter>
+    <ClInclude Include="FruitSaleSim.h">
+      <Filter>헤더 파일\Fruit</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
