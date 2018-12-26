@@ -14,7 +14,8 @@ int main(void) {
 	//Ch2_4_Q1();
 	//Ch2_4_Q3();
 	//RefReturnTwoMain();
-	carMachanism();
+	//carMachanism();
+	calMain();
 
 	system("pause");
 }

@@ -78,6 +78,15 @@
     <ClCompile Include="carMain.cpp">
       <Filter>소스 파일\Chapter03</Filter>
     </ClCompile>
+    <ClCompile Include="calculatorMain.cpp">
+      <Filter>소스 파일\Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculator.h">
+      <Filter>헤더 파일\Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculator.cpp">
+      <Filter>소스 파일\Chapter03</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01.h">
@@ -112,6 +121,9 @@
     </ClInclude>
     <ClInclude Include="carMain.h">
       <Filter>헤더 파일\Chapter03</Filter>
+    </ClInclude>
+    <ClInclude Include="calculatorMain.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
