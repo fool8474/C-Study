@@ -2,5 +2,6 @@
 
 int main(void) {
 
+	TempObjMain();
 	system("pause");
 }

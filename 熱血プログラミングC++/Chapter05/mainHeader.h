@@ -2,3 +2,4 @@
 
 #include <iostream>
 #include <cstring>
+#include "IKnowTempObj.h"

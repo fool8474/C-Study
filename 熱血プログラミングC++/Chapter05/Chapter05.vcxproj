@@ -115,8 +115,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="IKnowTempObj.cpp" />
     <ClCompile Include="mainFile.cpp" />
     <ClCompile Include="mainHeader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IKnowTempObj.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
