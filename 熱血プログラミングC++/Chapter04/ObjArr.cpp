@@ -1,6 +1,4 @@
-#include <iostream>
-#include <cstring>
-#include "ObjArr.h"
+#include "mainHeader.h"
 using namespace std;
 
 class Person {

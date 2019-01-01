@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{DDE09065-CC5F-426D-A475-479F44DBFECB}</ProjectGuid>
-    <RootNamespace>OOP</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{4E6C155C-F986-40F4-8F99-7CF9F0DC6F35}</ProjectGuid>
+    <RootNamespace>Chapter07</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -115,28 +115,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="bankSystemMain.cpp" />
-    <ClCompile Include="BankSystemVer01.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="BankSystemVer02.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="BankSystemVer03.cpp" />
-    <ClCompile Include="BankSystemVer04.cpp" />
     <ClCompile Include="mainFile.cpp" />
+    <ClCompile Include="SquareISA.cpp" />
+    <ClCompile Include="UnivStudentInheri.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bankSystemMain.h" />
-    <ClInclude Include="BankSystemVer01.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="BankSystemVer02.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="BankSystemVer03.h" />
-    <ClInclude Include="BankSystemVer04.h" />
     <ClInclude Include="mainHeader.h" />
+    <ClInclude Include="SquareISA.h" />
+    <ClInclude Include="UnivStudentInheri.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
