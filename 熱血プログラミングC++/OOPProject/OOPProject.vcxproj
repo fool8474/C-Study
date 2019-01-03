@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{DDE09065-CC5F-426D-A475-479F44DBFECB}</ProjectGuid>
-    <RootNamespace>OOP</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{02311086-242E-478B-802A-627254D7CF81}</ProjectGuid>
+    <RootNamespace>OOPProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -117,25 +117,31 @@
   <ItemGroup>
     <ClCompile Include="bankSystemMain.cpp" />
     <ClCompile Include="BankSystemVer01.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="BankSystemVer02.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="BankSystemVer03.cpp" />
-    <ClCompile Include="BankSystemVer04.cpp" />
+    <ClCompile Include="BankSystemVer03.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="BankSystemVer04.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="BankSystemVer05.cpp" />
     <ClCompile Include="mainFile.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bankSystemMain.h" />
-    <ClInclude Include="BankSystemVer01.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="BankSystemVer02.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClInclude>
+    <ClInclude Include="BankSystemVer01.h" />
+    <ClInclude Include="BankSystemVer02.h" />
     <ClInclude Include="BankSystemVer03.h" />
     <ClInclude Include="BankSystemVer04.h" />
+    <ClInclude Include="BankSystemVer05.h" />
     <ClInclude Include="mainHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

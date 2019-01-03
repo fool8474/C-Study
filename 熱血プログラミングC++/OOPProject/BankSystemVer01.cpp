@@ -7,7 +7,7 @@ using std::endl;
 
 const int NAME_LEN = 20;
 
-enum {MAKE=1, DEPOSIT, WITHDRAW, INQUIRE, EXIT};
+enum { MAKE = 1, DEPOSIT, WITHDRAW, INQUIRE, EXIT };
 
 typedef struct {
 	int accID;
@@ -18,7 +18,7 @@ typedef struct {
 Account accArr[100];
 int accNum = 0;
 
-int BankVer1(){
+int BankVer1() {
 	int choice;
 
 	while (1) {
@@ -28,7 +28,7 @@ int BankVer1(){
 		cout << endl;
 
 		switch (choice) {
-		case MAKE :
+		case MAKE:
 			MakeAccount();
 			break;
 
@@ -36,18 +36,18 @@ int BankVer1(){
 			DepositMoney();
 			break;
 
-		case WITHDRAW :
+		case WITHDRAW:
 			WithdrawMoney();
 			break;
 
-		case INQUIRE :
+		case INQUIRE:
 			ShowAllAccInfo();
 			break;
 
-		case EXIT :
+		case EXIT:
 			return 0;
 
-		default :
+		default:
 			cout << "Illegal selection.." << endl;
 		}
 	}

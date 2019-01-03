@@ -9,12 +9,12 @@ const int NAME_LEN = 20;
 enum { MAKE = 1, DEPOSIT, WITHDRAW, INQUIRE, EXIT };
 
 class Account {
-private :
+private:
 	int accID;
 	int balance;
 	char * cusName;
 
-public :
+public:
 	Account(int ID, int money, char * name) : accID(ID), balance(money) {
 		cusName = new char[strlen(name) + 1];
 		strcpy_s(cusName, sizeof(cusName), name);
@@ -58,7 +58,7 @@ int BankVer2() {
 		cout << "선택 : ";
 		cin >> choice;
 		cout << endl;
-		
+
 		switch (choice) {
 		case MAKE:
 			MakeAccount();
@@ -132,7 +132,7 @@ void WithdrawMoney() {
 
 	for (int i = 0; i < accNum; i++) {
 		if (id == accArr[i]->GetAccID()) {
-			if (accArr[i]->withdraw(money)==0) {
+			if (accArr[i]->withdraw(money) == 0) {
 				cout << "계좌의 돈이 충분치 않습니다." << endl;
 				return;
 			}

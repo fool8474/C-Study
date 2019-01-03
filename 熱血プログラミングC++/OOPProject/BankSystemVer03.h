@@ -1,6 +1,7 @@
 #pragma once
+#pragma once
 
-int BankVer4();
+int BankVer3();
 
 void ShowMenu();
 
